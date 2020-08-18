@@ -21,7 +21,7 @@ print(df[:5])
 # App layout
 app.layout = html.Div([
 
-    html.H1("Web Application Dashboards with Dash", style={'text-align': 'center'}),
+    html.H1("Web Application Showing Bee Population of USA", style={'text-align': 'center'}),
 
     dcc.Dropdown(id="slct_year",
                  options=[
